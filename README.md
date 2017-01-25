@@ -15,11 +15,11 @@ Weather station project with Arduino
 - Arduino UNO
 - DHT11 temperature and humidity sensor
 - Ethernet shield
-- SD card
 - LED (Optional)
 
 #### 1.2 Software
 - [DHT sensor library](https://github.com/adafruit/DHT-sensor-library)
+- [ArduinoHttpClient](https://github.com/arduino-libraries/ArduinoHttpClient)
 
 ### 2 Pinout
 #### 2.2 DHT11

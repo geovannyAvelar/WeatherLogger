@@ -1,4 +1,5 @@
-# WeatherLogger
+# WeatherLogger [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)  
+
 Weather station project with Arduino
 
 ## Summary
@@ -15,11 +16,11 @@ Weather station project with Arduino
 - Arduino UNO
 - DHT11 temperature and humidity sensor
 - Ethernet shield
-- SD card
 - LED (Optional)
 
 #### 1.2 Software
 - [DHT sensor library](https://github.com/adafruit/DHT-sensor-library)
+- [ArduinoHttpClient](https://github.com/arduino-libraries/ArduinoHttpClient)
 
 ### 2 Pinout
 #### 2.2 DHT11

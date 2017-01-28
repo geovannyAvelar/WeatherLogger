@@ -15,7 +15,6 @@ void start_network() {
     Serial.write("Failed to obtain IP via DHCP");
   } else {
     Serial.write("Network started");
-    Serial.write(Ethernet.localIP());
   }
 }
 
@@ -35,6 +34,9 @@ void saveWeatherData(WEATHER_DATA data) {
     Serial.write("Error ");
     Serial.println(status);
   }
+
+  client.stop();
+  delay(5000);
 
 }
 

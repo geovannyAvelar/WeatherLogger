@@ -3,7 +3,7 @@
 #include "server.h"
 #include "utils.h"
 
-#define DATA_COLLECT_INTERVAL 300000
+#define DATA_COLLECT_INTERVAL 600000
 #define LED 2
 
 void setup() {
